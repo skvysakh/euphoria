@@ -10,7 +10,13 @@
 8. Check branch: git branch -a 
 9. Pull remote changes of an existing local branch : git pull origin <remote-branch> (fetch + merge)
 10. Fetch remote changes of an existing local branch : git fetch origin <remote-branch> 
-11. Reset the local changes commited that are not in upstream : git pull -rebase
+11. Reset the local changes commited that are not in upstream to that from upstream  : git pull -rebase
+12. Set an Upstream for develop : git push --set-upstream origin develop 
+    (msg: Branch 'develop' set up to track remote branch 'develop' from 'origin')
+    (from now to push to remote just do 'git push')
+13. Origin - <Remote Name>, develop/master - <Branch Name>
+14. Add + Commit + Push at once : git commit -am "Message" && git push
+14. Add file to .gitignore : echo <file-to-ignore> >> .gitignore (eg: echo .settings/ >> .gitignore)
 
 **Fetch vs Pull vs Checkout**
 --
