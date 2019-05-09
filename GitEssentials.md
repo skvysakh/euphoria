@@ -1,6 +1,5 @@
-====================
-Essentials
-====================
+**Essentials**
+---
 1. Clone Mater branch : git clone -b master <clone-url>
 2. Add all file and push to remote : git add -A 
 3. Check file status : git status
@@ -13,12 +12,11 @@ Essentials
 10. Fetch remote changes of an existing local branch : git fetch origin <remote-branch> 
 11. Reset the local changes commited that are not in upstream : git pull -rebase
 
-=========================
-Fetch vs Pull vs Checkout
-=========================
+**Fetch vs Pull vs Checkout**
+--
 Fetch : Will pulldown remote branch + create local copy of remote branch
 Pull : fetch + merge
-Checkout : will checkout a local copy of remote + do a merge
+Checkout : will checkout a local copy of remote + do a merge 
 
 
  
