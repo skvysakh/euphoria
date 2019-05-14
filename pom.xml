@@ -12,6 +12,7 @@
 	<artifactId>euphoria</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>euphoria</name>
+	<packaging>war</packaging>
 	<description>Cook Book for an Interview</description>
 
 	<properties>
@@ -33,16 +34,20 @@
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+		
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
 		<dependency>
 			<groupId>de.flapdoodle.embed</groupId>
 			<artifactId>de.flapdoodle.embed.mongo</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
 	</dependencies>
 
 	<build>
